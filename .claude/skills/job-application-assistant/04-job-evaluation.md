@@ -16,9 +16,9 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** [YOUR_PRIMARY_SKILLS]
-**Moderate match areas:** [YOUR_SECONDARY_SKILLS]
-**Weak match areas:** [SKILLS_YOU_LACK]
+**Strong match areas:** Molecular dynamics simulation (LAMMPS, GROMACS, OpenMM, NAMD); ab-initio MD/DFT/TDDFT (VASP, Quantum Espresso, ORCA, DeePMD); Python scientific stack (NumPy, SciPy, pandas, PyTorch, scikit-learn); cheminformatics and structure-based design (RDKit, docking, QSAR/ADMET); HPC/SLURM automation
+**Moderate match areas:** Statistical/stochastic modelling (Bayesian inference, Gaussian processes, MCMC, GARCH, stochastic differential equations) - strong theoretical grounding but from self-study/research rather than a finance role; C/C++ and MPI parallel computing; graph neural networks
+**Weak match areas:** Production software engineering practices (CI/CD, large-scale system design); full-time industry work experience (all experience to date is academic/research); people management
 
 ### 2. Experience Match (0-100)
 Does work history align with what they're looking for?
@@ -30,9 +30,9 @@ Does work history align with what they're looking for?
 | 40-59 | Adjacent experience, would need to make the case |
 | 0-39 | Unrelated experience |
 
-**Strong:** [YOUR_DIRECT_EXPERIENCE_DOMAINS]
-**Moderate:** [YOUR_ADJACENT_EXPERIENCE]
-**Entry-level:** [ROLES_WITH_LIMITED_EXPERIENCE]
+**Strong:** Computational research scientist roles in molecular simulation, computational chemistry, or materials modelling (direct 6+ year domain match, first-author publication record)
+**Moderate:** Computational drug design / cheminformatics roles (strong tooling and methods overlap - RDKit, docking, QSAR - but no direct pharma project experience); quantitative research roles (strong stochastic-modelling and simulation-methodology overlap, but no finance-industry experience - the JPCB rate-estimation work is methodologically identical to calibrating a mean-reversion model from price data, which is a fair transferable-skills case to make)
+**Entry-level:** Any role - this is a first industry position after a PhD, so frame accordingly rather than expecting senior-level scope
 
 ### 3. Behavioral/Culture Fit (0-100)
 Does the role and company culture match the behavioral profile?
@@ -47,10 +47,12 @@ Does the role and company culture match the behavioral profile?
 **Red flags to research:** Department disorganization, work dominated by maintenance over development, poor chemistry with leadership, culture mismatches. Check reviews, media coverage, LinkedIn connections, and network contacts for insider perspective.
 
 ### 4. Location & Logistics (Pass/Fail + Notes)
-- Within commute range: PASS
-- Remote with occasional office: PASS
-- Requires relocation: FAIL (deal-breaker)
+- Remote (worldwide): PASS
+- Ankara, Turkey or hybrid/on-site there: PASS
+- Requires relocation to a country with a comparable or higher standard of living/economy than Turkey (e.g. most of EU/UK/US/Canada, wealthy Gulf states, East Asia): PASS
+- Requires relocation to a country with a lower standard of living/economy than Turkey: FAIL (deal-breaker)
 - Frequent international travel: FLAG (discuss with user)
+- Unclear which bucket a location falls into: FLAG (discuss with user rather than guessing)
 
 ### 5. Career Alignment & Motivation (0-100)
 Does this role advance career goals and contain tasks that energize?
@@ -63,19 +65,19 @@ Does this role advance career goals and contain tasks that energize?
 | 0-39 | Dead end or backwards step |
 
 **Career goals:**
-- [YOUR_CAREER_GOAL_1]
-- [YOUR_CAREER_GOAL_2]
-- [YOUR_CAREER_GOAL_3]
+- Transition from PhD research (Bilkent UNAM, expected completion 2026) directly into an industry research scientist role
+- Apply the full molecular-simulation scale ladder (classical MD -> ab-initio MD -> DFT -> TDDFT) to real industry problems - computational chemistry, drug discovery, or materials R&D
+- Alternatively, apply the statistical/stochastic modelling skillset (Bayesian methods, Gaussian processes, MCMC, stochastic differential equations) in a quantitative research role - dual-track search, not mutually exclusive
 
 **Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: [YOUR_ENERGIZING_TASKS]
-- Tasks that drain: [YOUR_DRAINING_TASKS]
-- Non-task factors: leadership style, department culture, company values, degree of autonomy
+- Tasks that energize: hands-on scientific/technical problem-solving - simulation methodology, model-building, rigorous quantitative analysis
+- Tasks that drain: not yet well-characterized (limited industry exposure to date) - flag anything that looks purely administrative or non-technical for discussion with the candidate
+- Non-task factors: research-driven culture, technical credibility of leadership, room for independent problem-solving
 
 **Life situation alignment:** Consider personal constraints:
-- **Security**: [YOUR_FINANCIAL_SITUATION_CONTEXT]
-- **Flexibility**: [YOUR_SCHEDULE_CONSTRAINTS]
-- **Professional development**: [YOUR_GROWTH_PRIORITIES]
+- **Security**: Salary floor of $3000/€3000 monthly, no upper limit; finishing PhD, so timeline flexibility exists but industry transition is the active goal
+- **Flexibility**: Open to relocation and remote work worldwide, except relocation to a country with a lower standard of living/economy than Turkey
+- **Professional development**: Wants a role that lets a first industry job build directly on 6+ years of deep technical research rather than starting over in an unrelated field
 
 ### 6. Salary Benchmark (Optional)
 

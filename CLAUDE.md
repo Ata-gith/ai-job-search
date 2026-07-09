@@ -1,10 +1,7 @@
-# Job Application Assistant for [YOUR_NAME]
-
-<!-- SETUP: This file is populated by running /setup -->
-<!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
+# Job Application Assistant for Ata Utku Özkan
 
 ## Role
-This repo is a job application workspace. Claude acts as a career advisor and application assistant for [YOUR_NAME], helping with:
+This repo is a job application workspace. Claude acts as a career advisor and application assistant for Ata Utku Özkan, helping with:
 1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)
 2. **CV tailoring** - Adapt existing CV templates (LaTeX/moderncv) to target specific roles
 3. **Cover letter writing** - Draft targeted cover letters using existing templates (LaTeX)
@@ -13,68 +10,78 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 
 ## Candidate Profile
 
-<!-- This section is auto-populated by /setup. You can also fill it in manually. -->
-
 ### Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
-- **Languages:** [YOUR_LANGUAGES]
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
+- **Name:** Ata Utku Özkan
+- **Location:** Ankara, Turkey (open to relocation and remote roles worldwide, except relocation to a country with a lower standard of living/economy than Turkey)
+- **Languages:** Turkish (native), English (full professional), German (limited working / A2), French (elementary / A2)
+- **Status:** PhD Candidate, Materials Science and Nanotechnology, Bilkent University (UNAM) - expected completion 2026, actively transitioning from academic research to industry
+- **LinkedIn headline:** "PhD Candidate, Computational Physics & Materials Science - Molecular Simulation, Cheminformatics & Quantitative Modelling"
 
 ### Education
-<!-- List your degrees, most recent first -->
-- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
-  - Thesis: "[THESIS_TITLE]"
-  - Topics: [KEY_TOPICS]
+- **PhD, Materials Science and Nanotechnology** (2022-present, expected 2026) - Bilkent University (UNAM), Ankara
+  - Dissertation: "Molecular Dynamics Study of Ionic Transport and Self-Assembly in Soft and 2D Materials"
+  - Topics: non-equilibrium MD, ab-initio MD, DFT, TDDFT, machine-learned potentials (DeePMD), ionic transport, coarse-grained self-assembly
+- **M.Sc., Materials Science and Nanotechnology** (2019-2022) - Bilkent University (UNAM), Ankara
+  - Thesis: "Molecular Dynamics Simulations Study of Rotaxane in Bulk and at Interfaces"
+  - Topics: all-atom MD, free-energy methods, mechanically interlocked molecules
+- **B.S., Materials Science and Nanotechnology Engineering** (2014-2019) - TOBB ETÜ, Ankara
+  - Thesis: "Computational Modeling of Peptide-Graphene Interactions"
 
 ### Professional Experience
-<!-- List your roles, most recent first -->
-- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
-  - [KEY_RESPONSIBILITY_1]
-  - [KEY_RESPONSIBILITY_2]
-  - [KEY_ACHIEVEMENT]
+- **PhD Researcher** (2022 - present) - **Bilkent University, UNAM** (Ankara, Turkey)
+  - Ran 100+ non-equilibrium MD simulations (LAMMPS, up to 100 ns each) resolving the microscopic origin of anomalous ionic conductivity in 2D van der Waals solids
+  - Built end-to-end Python analysis pipelines (NumPy, SciPy, pandas, NetworkX) for coarse-grained MD studies of biomolecular self-assembly
+  - First author on a manuscript under review in *Physical Review Materials*; second author on a bioRxiv 2026 preprint
+- **MS Researcher** (2019 - 2022) - **Bilkent University, UNAM** (Ankara, Turkey)
+  - First-author study (JPCB 2023) on pH-driven conformational switching kinetics of [5]rotaxane using all-atom MD across seven protonation states and 20 replicas
+  - Simulated polyrotaxane 2D network formation at a water-chloroform interface
+- **Computational Risk Analysis Intern** (Mar - Jun 2017) - **Nurol Makine ve Sanayi A.Ş.** (Ankara, Turkey)
+  - Statistical forecasting and computational risk modelling in the quality control department
+- **Research Intern** (Jan - Mar 2017) - **METU Nanomagnetics Instruments** (Ankara, Turkey)
+  - Atomic force microscopy imaging and quantitative surface analysis
+- **Engineering Intern** (Jan - Mar 2016) - **Aydöküm A.Ş.** (Ankara, Turkey)
+  - Continuum mechanics simulation and microstructure phase data analysis
 
 ### Technical Skills
-- **Primary:** [YOUR_PRIMARY_SKILLS]
-- **Secondary:** [YOUR_SECONDARY_SKILLS]
-- **Domain:** [YOUR_DOMAIN_EXPERTISE]
-- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
+- **Primary:** Molecular simulation across the full scale ladder - classical MD, ab-initio MD, DFT, and TDDFT (LAMMPS, GROMACS, OpenMM, NAMD, VASP, Quantum Espresso, ORCA, DeePMD); enhanced sampling and free-energy methods (FEP, thermodynamic integration, umbrella sampling, metadynamics)
+- **Secondary:** Python scientific stack (NumPy, SciPy, pandas, PyTorch, scikit-learn, TensorFlow/TF-Probability), cheminformatics and structure-based design (RDKit, Open Babel, MDAnalysis, AutoDock Vina, GNINA, QSAR/ADMET), statistical and stochastic modelling (Bayesian inference, Gaussian processes, ELBO/variational optimization, MCMC, graph neural networks), C/C++ (multithreading, MPI)
+- **Domain:** Computational chemistry and materials science, drug-discovery-adjacent cheminformatics, quantitative/stochastic modelling (time series, heavy-tail statistics)
+- **Software:** SLURM/HPC, MPI, CUDA (via PyTorch), Git, LaTeX, SQL (MySQL, SQLite)
 
 ### Certifications
-<!-- List relevant certifications with dates -->
-- **[CERTIFICATION_NAME]** - [HOURS]h - completed [DATE]
+- **Machine Learning** - Stanford Online / Coursera - completed 2022
+- **Object-Oriented Data Structures in C++** - University of Illinois Urbana-Champaign / Coursera - completed 2021
+- Multithreading with Modern C++, ML and Data Science Bootcamp, Advanced Modern C++ - Udemy
 
 ### Publications
-<!-- List peer-reviewed publications, if any -->
-- [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL].
+- A. U. Özkan, D. Tuncel, A. Erbaş (2023). Effect of charge state on the equilibrium and kinetic properties of mechanically interlocked [5]Rotaxane: A molecular dynamics study. *The Journal of Physical Chemistry B*, 127(5), 1254-1263. doi:10.1021/acs.jpcb.2c07645
+- A. U. Özkan, T. S. Kasırga, A. Erbaş (2026). Ionic transport in spontaneously ion-intercalated van der Waals layered structures. Manuscript under review, *Physical Review Materials*. arXiv:2601.14836
+- H. A. Hameed, A. U. Ozkan, A. Erbas (2026). Inter-lamin interactions control meshwork topology in a polymer-gel model of nuclear lamina. *bioRxiv* preprint. doi:10.64898/2026.03.14.711786
 
 ### Awards
-<!-- List relevant awards, hackathons, competitions -->
-- [AWARD_NAME] - [EVENT] ([YEAR])
+- TÜBİTAK 2211-C - National PhD Scholarship in Priority Fields in Science and Technology (2025)
+- TÜBİTAK 2224-A - Grant for Participation in Scientific Meetings Abroad (2024)
+- TÜBİTAK 2250 - Performance-Based Scholarship for PhD Scholars (2024)
 
 ### Behavioral Profile
-<!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
-- **[TRAIT_1]** - [DESCRIPTION]
-- **[TRAIT_2]** - [DESCRIPTION]
-- **Strengths:** [YOUR_STRENGTHS]
-- **Growth areas:** [YOUR_GROWTH_AREAS]
-- **Thrives in:** [YOUR_IDEAL_ENVIRONMENT]
+<!-- Inferred from LinkedIn About text - no formal assessment on file. Review before relying on this heavily. -->
+- **Self-directed, depth-oriented learner** - studies mathematics independently outside of required work; builds open-source tooling (CADDack, finance_toolkit) beyond thesis requirements
+- **Comfortable in both individual-contributor and leadership roles** - has led and participated in collaborative research groups throughout MS and PhD work
+- **Strengths:** rigorous quantitative grounding, ability to self-teach across disciplines (physics, chemistry, ML, statistics), building production-grade automated pipelines end-to-end
+- **Growth areas:** shifting from academic research pace/scope to industry delivery cadence - frame as applying the same methodological rigor to faster iteration cycles
+- **Thrives in:** research-driven environments that value depth, scientific creativity, and independent problem-solving
 
 ### What Excites You
-<!-- What motivates you professionally -->
-- [PASSION_1]
-- [PASSION_2]
+- The science and research itself - solving hard problems across the molecular-simulation scale ladder (MD to ab-initio MD to DFT to TDDFT)
+- Applying rigorous statistical/stochastic modelling (Bayesian inference, Gaussian processes, MCMC) to real-world data
 
 ### Target Sectors
-<!-- Industries and companies you're targeting -->
-- [SECTOR_1]: [EXAMPLE_COMPANIES]
-- [SECTOR_2]: [EXAMPLE_COMPANIES]
+- Computational chemistry / drug discovery: e.g. Schrödinger (target company), and similar computational drug design / molecular modelling software and pharma/biotech firms
+- Quantitative research / systematic trading: firms hiring for quant research, risk, or derivatives roles that value stochastic modelling and simulation backgrounds
 
 ### Deal-breakers
-<!-- Hard constraints on job search -->
-- [DEALBREAKER_1]
-- [DEALBREAKER_2]
+- Relocation to a country with a lower standard of living/economy than Turkey
+- Salary below $3000/€3000 monthly (no upper limit)
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)

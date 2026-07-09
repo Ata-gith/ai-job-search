@@ -105,12 +105,11 @@ Write 5-7 lines that function as an "elevator pitch": a concise, compelling intr
 
 **Create 2-3 profile statement templates for your main role types:**
 
-<!-- SETUP: These are populated based on your background -->
-**For [YOUR_PRIMARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_1]
+**For computational chemistry / drug design / molecular modelling roles:**
+> PhD computational physicist (Bilkent UNAM, exp. 2026) with 6+ years of all-atom and coarse-grained MD in LAMMPS and GROMACS, and ab-initio methods (DFT, TDDFT) in VASP and Quantum Espresso. First author of a JPCB 2023 paper on [5]rotaxane conformational kinetics and a manuscript under review in Physical Review Materials on non-equilibrium ionic transport in 2D van der Waals solids. Production-grade Python developer across cheminformatics (RDKit, molecular docking, QSAR, ADMET) and graph neural networks for structure-property prediction; open-source CADDack repository. Seeking to apply cross-scale simulation expertise (classical MD -> ab-initio MD -> DFT -> TDDFT) to industry-scale computational drug design or materials R&D.
 
-**For [YOUR_SECONDARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_2]
+**For quantitative research / stochastic modelling roles:**
+> PhD researcher (Bilkent UNAM, exp. 2026) with 6+ years building numerical simulation and statistical inference pipelines at scale. Published work covers transition-rate estimation from time-series data, regime-switching transport modelling, and phase-diagram construction over continuous parameter spaces, executed across 100+ independent HPC runs with fully automated Python analysis. Strong foundations in stochastic differential equations, Bayesian inference, Gaussian processes, and MCMC, self-applied to classification projects and an open-source finance_toolkit covering tail-risk and heavy-tail distribution fitting. Seeking to apply rigorous quantitative modelling to a research or development role in systematic trading, risk, or derivatives.
 
 ### Core Competencies / Skills Section (Best Practice)
 Reorder and emphasize based on the role. Use bold category labels.
