@@ -1,8 +1,7 @@
-%% Example CV - [YOUR_NAME]
+%% Example CV - Ata Utku Özkan
 %% Comprehensive overview of all competencies, experience, and achievements.
 %% Use as a master reference when tailoring role-specific CVs.
 %%
-%% SETUP: Run /setup to populate this with your actual information.
 %% Compile with: lualatex main_example.tex
 %% (pdflatex often fails on modern MiKTeX with fontawesome5 font-expansion errors.)
 
@@ -24,18 +23,17 @@
     linkcolor=blue,
     filecolor=magenta,
     urlcolor=blue,
-    pdftitle={[YOUR_NAME] - CV},
+    pdftitle={Ata Utku Özkan - CV},
     pdfpagemode=FullScreen,
 }
 \usepackage[scale=0.80]{geometry}
 \usepackage{import}
 
 % personal data
-\name{[First]}{[Last]}
-\address{[Your Address, City, Country]}{}{}
-\phone[mobile]{[+XX XXXXXXXXXX]}
-\email{[your.email@example.com]}
-\extrainfo{\href{[https://linkedin.com/in/your-profile]}{LinkedIn}, \href{[https://github.com/your-username]}{GitHub}}
+\name{Ata Utku}{Özkan}
+\address{Ankara, Turkey}{}{}
+\email{atautkuozkan@gmail.com}
+\extrainfo{\href{https://linkedin.com/in/ata-utku-ozkan}{LinkedIn}, \href{https://github.com/Ata-gith}{GitHub}}
 
 \begin{document}
 
@@ -46,7 +44,7 @@
 % ============================================================
 
 \vspace{6pt}
-\small{[Write a 3-5 line profile statement tailored to the role you're applying for. Focus on what makes you uniquely qualified. Example: "Data scientist with a PhD in [field] and X years of industry experience. Combines deep domain expertise in [domain] with strong applied machine learning and Python development skills. Experienced in developing end-to-end ML pipelines, from data ingestion to stakeholder-facing dashboards."]}
+\small{PhD computational physicist (Bilkent UNAM, exp. 2026) with 6+ years of molecular simulation spanning the full scale ladder: classical MD, ab-initio MD, DFT, and TDDFT (LAMMPS, GROMACS, VASP, Quantum Espresso, DeePMD). First author of a JPCB 2023 paper and a manuscript under review in Physical Review Materials; second author of a bioRxiv 2026 preprint. Production-grade Python developer across cheminformatics (RDKit, molecular docking, QSAR/ADMET) and statistical/stochastic modelling (Bayesian inference, Gaussian processes, MCMC). Transitioning from academic research to an industry research scientist role in computational chemistry/drug design or quantitative research.}
 
 % ============================================================
 %     CORE COMPETENCIES
@@ -56,15 +54,15 @@
 \vspace{1pt}
 \begin{itemize}
 
-\item \textbf{[Skill Category 1]}: [Specific skills, frameworks, tools. Be concrete.]
+\item \textbf{Molecular Simulation}: LAMMPS, GROMACS, OpenMM, NAMD; enhanced sampling (replica exchange, umbrella sampling, metadynamics); free-energy methods (FEP, thermodynamic integration)
 
-\item \textbf{[Skill Category 2]}: [Specific skills, frameworks, tools.]
+\item \textbf{Ab-initio \& Electronic Structure}: DFT and TDDFT (VASP, Quantum Espresso, ORCA); machine-learned potentials (DeePMD); ionic transport in 2D materials
 
-\item \textbf{[Skill Category 3]}: [Specific skills, frameworks, tools.]
+\item \textbf{Cheminformatics \& Drug Design}: RDKit, molecular docking (AutoDock Vina, GNINA), QSAR/ADMET modelling, graph neural networks for structure-property prediction
 
-\item \textbf{[Skill Category 4]}: [Domain expertise, methods, approaches.]
+\item \textbf{Statistical \& Stochastic Modelling}: Bayesian inference, Gaussian processes, ELBO/variational optimization, MCMC, stochastic differential equations, time-series (ARMA/GARCH)
 
-\item \textbf{[Skill Category 5]}: [Tools, platforms, software.]
+\item \textbf{Programming \& HPC}: Python (NumPy, SciPy, pandas, PyTorch, scikit-learn), C/C++ (MPI), SLURM/HPC automation
 
 \end{itemize}
 
@@ -76,32 +74,46 @@
 \vspace{3pt}
 \begin{itemize}
 
-% --- Most Recent Role ---
-\item{\cventry{[YYYY--Present]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+% --- PhD Researcher ---
+\item{\cventry{2022--Present}{PhD Researcher}{Bilkent University, UNAM}{Ankara, Turkey}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1 - be specific, use numbers where possible]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
-    \item [Achievement or responsibility 4]
+    \item Ran 100+ all-atom non-equilibrium MD simulations (LAMMPS, up to 100 ns each) on national HPC to resolve the microscopic origin of anomalous ionic conductivity in Na$^+$-intercalated layered MnO$_2$
+    \item Demonstrated a collective ionic conduction regime that violates the Nernst--Einstein relation; decoupled morphology from hydration effects via frozen-layer control simulations
+    \item Built the end-to-end Python analysis pipeline (NumPy, pandas, SciPy, NetworkX, OVITO) for a coarse-grained MD study of nuclear lamina self-assembly (1250-chain system, 22{,}500-bead elastic shell)
+    \item First author, manuscript under review, \textit{Physical Review Materials}; second author, bioRxiv 2026 preprint
 \end{itemize}}}
 
 \vspace{3pt}
 
-% --- Previous Role ---
-\item{\cventry{[YYYY--YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+% --- MS Researcher ---
+\item{\cventry{2019--2022}{MS Researcher}{Bilkent University, UNAM}{Ankara, Turkey}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
+    \item First-author study (JPCB 2023): all-atom MD (GROMACS) across seven protonation states showing pH-driven conformational switching kinetics of [5]rotaxane, validated across 20 replicas and two independent force fields
+    \item Simulated polyrotaxane 2D network formation at a water--chloroform interface; characterised network porosity and charge-state-dependent lateral expansion
 \end{itemize}}}
 
 \vspace{3pt}
 
-% --- Earlier Role ---
-\item{\cventry{[YYYY--YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+% --- Computational Risk Analysis Intern ---
+\item{\cventry{Mar--Jun 2017}{Computational Risk Analysis Intern}{Nurol Makine ve Sanayi A.Ş.}{Ankara, Turkey}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
+    \item Statistical forecasting and computational risk modelling in the quality control department
+\end{itemize}}}
+
+\vspace{3pt}
+
+% --- Research Intern ---
+\item{\cventry{Jan--Mar 2017}{Research Intern}{METU Nanomagnetics Instruments}{Ankara, Turkey}{}{\vspace{1pt}
+\begin{itemize}
+    \item Atomic force microscopy calibration and imaging (AFM, PFM/MFM, Aqua AFM); quantitative surface analysis
+\end{itemize}}}
+
+\vspace{3pt}
+
+% --- Engineering Intern ---
+\item{\cventry{Jan--Mar 2016}{Engineering Intern}{Aydöküm A.Ş.}{Ankara, Turkey}{}{\vspace{1pt}
+\begin{itemize}
+    \item Continuum mechanics simulation and microstructure phase data analysis for cast iron products
 \end{itemize}}}
 
 \end{itemize}
@@ -114,14 +126,20 @@
 \vspace{1pt}
 \begin{itemize}
 
-\item{\cventry{[YYYY--YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-Thesis: ``[Thesis Title].'' [Brief description of research focus.]
+\item{\cventry{2022--Present}{PhD, Materials Science and Nanotechnology}{Bilkent University (UNAM)}{Ankara, Turkey}{}{\vspace{1pt}
+Dissertation: ``Molecular Dynamics Study of Ionic Transport and Self-Assembly in Soft and 2D Materials.'' Expected completion 2026.
 }}
 
 \vspace{3pt}
 
-\item{\cventry{[YYYY--YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-[Brief description or key topics.]
+\item{\cventry{2019--2022}{M.Sc., Materials Science and Nanotechnology}{Bilkent University (UNAM)}{Ankara, Turkey}{}{\vspace{1pt}
+Thesis: ``Molecular Dynamics Simulations Study of Rotaxane in Bulk and at Interfaces.''
+}}
+
+\vspace{3pt}
+
+\item{\cventry{2014--2019}{B.S., Materials Science and Nanotechnology Engineering}{TOBB ETÜ}{Ankara, Turkey}{}{\vspace{1pt}
+Thesis: ``Computational Modeling of Peptide--Graphene Interactions.''
 }}
 
 \end{itemize}
@@ -133,7 +151,7 @@ Thesis: ``[Thesis Title].'' [Brief description of research focus.]
 \section{Languages}
 \vspace{1pt}
 \begin{itemize}
-\item [Language 1] (native), [Language 2] (fluent), [Language 3] (intermediate).
+\item Turkish (native), English (advanced/full professional), German (A2), French (A2).
 \end{itemize}
 
 % ============================================================
@@ -143,7 +161,9 @@ Thesis: ``[Thesis Title].'' [Brief description of research focus.]
 \section{Publications}
 \vspace{1pt}
 \begin{itemize}
-\item [Author(s)] ([Year]). [Title]. [Journal/Conference]. \href{[DOI_URL]}{DOI link}
+\item A. U. Özkan, D. Tuncel, A. Erbaş (2023). Effect of charge state on the equilibrium and kinetic properties of mechanically interlocked [5]Rotaxane: A molecular dynamics study. \textit{The Journal of Physical Chemistry B}, 127(5), 1254--1263. \href{https://doi.org/10.1021/acs.jpcb.2c07645}{DOI link}
+\item A. U. Özkan, T. S. Kasırga, A. Erbaş (2026). Ionic transport in spontaneously ion-intercalated van der Waals layered structures. Manuscript under review, \textit{Physical Review Materials}. \href{https://arxiv.org/abs/2601.14836}{arXiv:2601.14836}
+\item H. A. Hameed, A. U. Ozkan, A. Erbas (2026). Inter-lamin interactions control meshwork topology in a polymer-gel model of nuclear lamina. \textit{bioRxiv} preprint. \href{https://doi.org/10.64898/2026.03.14.711786}{DOI link}
 \end{itemize}
 
 % ============================================================
@@ -153,7 +173,9 @@ Thesis: ``[Thesis Title].'' [Brief description of research focus.]
 \section{Honors and Awards}
 \vspace{1pt}
 \begin{itemize}
-\item{\textbf{[Award Name]} -- [Event/Organization] ([Year]).}
+\item{\textbf{TÜBİTAK 2211-C} -- National PhD Scholarship in Priority Fields in Science and Technology (2025).}
+\item{\textbf{TÜBİTAK 2224-A} -- Grant for Participation in Scientific Meetings Abroad (2024).}
+\item{\textbf{TÜBİTAK 2250} -- Performance-Based Scholarship for PhD Scholars (2024).}
 \end{itemize}
 
 % ============================================================
